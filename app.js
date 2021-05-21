@@ -1,5 +1,9 @@
 var path = require('path');
+var mocha = require('mocha');
 var express = require('express');
+var chai = require('chai'); 
+var dom = require('jsdom');
+var fs = require('fs'); 
 var app = express();
 
 var htmlPath = path.join(__dirname, 'html');
